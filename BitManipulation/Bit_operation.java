@@ -26,6 +26,8 @@ public static int updateIthBit(int n, int i, int newBit){
     int BitMask= newBit<<i;
     return n | BitMask;
 }
+
+
     public static void main(String[] args) {
         System.out.println(updateIthBit(10, 2, 1));
     }
