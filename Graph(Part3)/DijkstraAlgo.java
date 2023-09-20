@@ -67,7 +67,7 @@ public class DijkstraAlgo {
             Pair curr = pq.remove();
             if (!vis[curr.n]) {
                 vis[curr.n] = true;
-                // neighbours
+                // neighbours=> update distance
                 for (int i = 0; i < graph[curr.n].size(); i++) {
                     // graph[curr.n].size() => index value are stored in the node so .n
                     Edge e = graph[curr.n].get(i);
