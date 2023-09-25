@@ -54,6 +54,7 @@ public class DijkstraAlgo {
         int dist[] = new int[graph.length]; // dist[i] = src to i
         for (int i = 0; i < graph.length; i++) {
             if (i != src) {
+                //to store infinity in all the places except index 0
                 dist[i] = Integer.MAX_VALUE; // +INFINITY
 
             }
@@ -91,6 +92,7 @@ public class DijkstraAlgo {
 
     public static void main(String[] args) {
         int V = 6;
+        //graph length is 6
         ArrayList<Edge> graph[] = new ArrayList[V];
         createGraph(graph);
         int src = 0;

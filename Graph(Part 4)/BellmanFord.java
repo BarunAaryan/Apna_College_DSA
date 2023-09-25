@@ -80,7 +80,7 @@ public class BellmanFord {
 
     public static void main(String[] args) {
         int V = 5;
-
+        // Graph length is 5 here
         // ArrayList<Edge> graph[] = new ArrayList[V];
         ArrayList<Edge> graph = new ArrayList<>();
         createGraph2(graph);
