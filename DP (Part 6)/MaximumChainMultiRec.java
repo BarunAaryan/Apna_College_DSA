@@ -1,5 +1,5 @@
 import java.util.*;
-
+//maximum Chain multiplication recursion
 public class MaximumChainMultiRec {
     public static int mcm(int arr[], int i, int j) {
         if (i == j) {
