@@ -45,7 +45,7 @@ public class QueryOnST {
         // for(int i =0; i<tree.length; i++){
         //     System.out.print(tree[i] +" ");
         // }
-         
+        
         System.out.println(getSum(arr, 2, 5));
     }
 }
